@@ -1,7 +1,7 @@
 # Data Structures and Algorithms - Practice
 Hello, this space is for data structures and algorithms practice.
 
-Lambda expression example in Java:
+### Lambda expression example in Java:
 ```
 List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David");
 
@@ -11,7 +11,7 @@ System.out.println(names);
 ```
 This will print out the list of names in alphabetical order: [Alice, Bob, Charlie, David].
 
-Anonymous function example in Java:
+### Anonymous function example in Java:
 ```
 List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David");
 
