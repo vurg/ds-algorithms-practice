@@ -25,3 +25,16 @@ Collections.sort(names, new Comparator<String>() {
 System.out.println(names);
 ```
 This will print out the list of names in reverse alphabetical order: [David, Charlie, Bob, Alice].
+
+### Stream API example in Java:
+```
+List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David");
+
+List<String> sortedNames = names.stream()
+                                .sorted()
+                                .collect(Collectors.toList());
+
+System.out.println(sortedNames);
+```
+This will print out the list of names sorted in ascending order: [Alice, Bob, Charlie, David].
+
